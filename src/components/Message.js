@@ -5,7 +5,7 @@ export default class Message extends Component {
     return (
       <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello World <code>React</code>.
         </p>
         <a
           className="App-link"
