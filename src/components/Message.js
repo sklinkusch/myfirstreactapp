@@ -2,10 +2,11 @@ import React, { Component } from "react";
 
 export default class Message extends Component {
   render() {
+    console.log(this.props);
     return (
       <div>
         <p>
-          Hello World <code>React</code>.
+          Hello World <code>{this.props.name}</code>.
         </p>
         <a
           className="App-link"
