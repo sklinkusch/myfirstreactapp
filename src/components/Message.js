@@ -6,11 +6,7 @@ export default class Message extends Component {
     return (
       <div>
         <p>
-          Hello World{" "}
-          <code>
-            {this.props.name} {this.props.last}
-          </code>
-          .
+          Hello World <code>{this.props.name || "Stefan"}</code>.
         </p>
         <a
           className="App-link"
